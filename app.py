@@ -26,7 +26,7 @@ def get_secret(name):
         return os.environ.get(name)
 
 
-st.set_page_config(page_title="Agente Económico", page_icon="💱")
+st.set_page_config(page_title="Economiko", page_icon="🐒")
 st.title("💱 Agente Económico")
 st.caption("Tipo de cambio, conversión de monedas, indicadores del Banco Mundial y clima.")
 
