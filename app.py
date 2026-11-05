@@ -27,7 +27,7 @@ def get_secret(name):
 
 
 st.set_page_config(page_title="Economiko", page_icon="🐒")
-st.title("💱 Agente Económico")
+st.title("🐒 Economiko")
 st.caption("Tipo de cambio, conversión de monedas, indicadores del Banco Mundial y clima.")
 
 groq_key = get_secret("GROQ_API_KEY")
